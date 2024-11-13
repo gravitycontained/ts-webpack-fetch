@@ -1,15 +1,12 @@
-# 🚀 Welcome to your new awesome project!
-
-This project has been created using **webpack-cli**, you can now run
-
+# Typescript Webpack
+Install the packages:
+ 
 ```
-npm run build
+pnpm install
 ```
-
-or
-
+ 
+next to run in local host:
+ 
 ```
-yarn build
+pnpm serve
 ```
-
-to bundle your application
