@@ -8,7 +8,7 @@ export class MyComponent {
 	{
     this.element = document.createElement("div");
 		this.element.classList.add('my-component');
-		
+
     this.element.innerHTML = template;
 	}
 
