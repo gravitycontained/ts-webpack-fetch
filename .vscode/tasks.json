@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Serve",
+			"command": "pnpm webpack serve",
+			"problemMatcher": [],
+			"icon": {
+				"color": "terminal.ansiGreen",
+				"id": "play"
+			}
+		},
+	]
+}
