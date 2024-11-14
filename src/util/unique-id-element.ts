@@ -1,7 +1,7 @@
-import { uniqueId } from "../util/unique-id";
+import { uniqueId } from "./unique-id";
 
 
-export class LabeledElement
+export class UniqueIdElement<T>
 {
 	protected id;
 	protected readonly root: HTMLElement;
@@ -19,8 +19,8 @@ export class LabeledElement
 		}
 	}
 
-	public get()
+	public get(): T
 	{
-		return this.root.querySelector(`#${this.id}`);
+		return <T>this.root.querySelector(`#${this.id}`);
 	}
 }

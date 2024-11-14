@@ -24,5 +24,8 @@
     "build:prod": "webpack --mode=production --node-env=production",
     "serve": "webpack serve"
   },
-  "description": "My webpack project"
+  "description": "My webpack project",
+  "dependencies": {
+    "rxjs": "^7.8.1"
+  }
 }

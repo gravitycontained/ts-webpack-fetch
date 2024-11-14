@@ -5,4 +5,10 @@ body {
 
 	background-color: oklch(0.28 0.00228 67.74);
 	color: oklch(0.95 0.00228 67.74);
+
+	#app {
+		background-color: oklch(35.2% 0 185.72);
+		padding: 8px;
+		border-radius: 8px;
+	}
 }
